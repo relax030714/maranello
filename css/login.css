@@ -1,0 +1,35 @@
+form.log-form{
+    margin-left: 420px;
+    margin-top: 30px;
+}
+input.log-input{
+    width: 350px;
+    height: 30px;
+    outline: none;
+    font-size: 20px;
+    font-weight:  bold;
+    text-align: center;    
+}
+input.log-submit{
+    margin-left: 80px;
+    width: 180px;
+    height: 40px;
+    font-size: 20px;
+    font-style: italic;
+}
+input.log-submit:hover{
+    background-color: #EFF0C1;
+    font-weight: bold;
+
+}
+div.log-info{
+    text-align: center;
+    margin-left: -500px;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000,
+			1px -1px 0 #000,
+			-1px 1px 0 #000,
+			1px 1px 0 #000;
+}

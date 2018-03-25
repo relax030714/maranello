@@ -1,0 +1,35 @@
+form.reg-form{
+    margin-left: 420px;
+    margin-top: 30px;
+}
+div.reg-info{
+    text-align: center;
+    margin-left: -500px;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000,
+			1px -1px 0 #000,
+			-1px 1px 0 #000,
+			1px 1px 0 #000;
+}
+label input.reg-input{
+    width: 350px;
+    height: 30px;
+    outline: none;
+    font-size: 20px;
+    font-weight:  bold;
+    text-align: center;
+}
+input.reg-submit{
+    margin-left: 80px;
+    width: 180px;
+    height: 40px;
+    font-size: 20px;
+    font-style: italic;
+}
+input.reg-submit:hover{
+    background-color: #EFF0C1;
+    font-weight: bold;
+
+}

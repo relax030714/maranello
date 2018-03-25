@@ -1,0 +1,86 @@
+/*маранелло*/
+a.name {
+	text-decoration: none;
+	margin-left: 35%;
+	font-size: 90px;
+	color: white;
+	text-shadow: -1px -1px 0 #000,
+			1px -1px 0 #000,
+			-1px 1px 0 #000,
+			1px 1px 0 #000;
+	font-family: brush script mt;
+}
+
+.name:hover {
+	color: red;
+	text-shadow: 10px;
+}
+
+/*Фон для хедера*/
+header{
+    background: linear-gradient(to bottom, rgba(243,197,189,1) 0%,rgba(232,108,87,1) 50%,rgba(234,40,3,1) 51%,rgba(255,102,0,1) 75%,rgba(199,34,0,1) 100%);
+    font-family: Cuprum, Arial, Helvetical, sans-serif;
+}
+
+/*Стили для меню*/
+.dws-menu{
+    margin: 0;
+    padding:0;
+}
+.dws-menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.dws-menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    font-size: 21px;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+}
+.dws-menu ul li{
+    position: relative;
+    border-right: 1px solid #b2b3b5;
+}
+.dws-menu ul li:first-child{
+    border-left: 1px solid #b2b3b5;
+}
+.dws-menu ul li:last-child{
+    border-right: 1px solid #b2b3b5;
+}
+.dws-menu li a:hover{
+    background: #454547;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.5s ease;
+}
+.dws-menu ul.submenu{
+    display: block;
+    position: absolute;
+    padding: 0;
+    display: none;
+}
+.dws-menu ul.submenu li{
+    border: 1px solid #c7c8ca;
+    background: red;
+}
+.dws-menu ul.submenu li a{
+    text-transform: lowercase;
+    font-size: 25px;
+    min-width: 150px;
+}
+.dws-menu ul.subsubmenu li{
+    position: absolute;
+    right: -193px;
+    top: 0;
+    display: none;
+}
+.dws-menu li:hover ul{
+    display: block;
+}
+ul.submenu li:hover ul.subsubmenu li{
+    display: block;
+}

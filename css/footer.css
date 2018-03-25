@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+section{
+    flex-grow: 1;
+    background: linear-gradient(red, #ECF07F, red);
+}
+footer{
+    background: linear-gradient(to bottom, rgba(243,197,189,1) 0%,rgba(232,108,87,1) 50%,rgba(234,40,3,1) 51%,rgba(255,102,0,1) 75%,rgba(199,34,0,1) 100%);
+    color: white;
+    width: 100%;
+    height: 50px;
+    
+}
+div.rights{
+    float: right;
+    margin-top: 25px;
+    margin-right: 5px;
+    text-align: right; 
+    font-weight: bold;
+}
+div img{
+    float: left;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
