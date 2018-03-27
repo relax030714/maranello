@@ -1,10 +1,10 @@
 form.reg-form{
-    margin-left: 420px;
+    margin-left: 33%;
     margin-top: 30px;
 }
 div.reg-info{
     text-align: center;
-    margin-left: -500px;
+    margin-left: -57%;
     color: white;
     font-size: 28px;
     font-weight: bold;
@@ -22,7 +22,7 @@ label input.reg-input{
     text-align: center;
 }
 input.reg-submit{
-    margin-left: 80px;
+    margin-left: 10%;
     width: 180px;
     height: 40px;
     font-size: 20px;
