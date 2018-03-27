@@ -32,6 +32,7 @@ $path_obj->includder($add_controller);
         <link rel="stylesheet" href="/css/login.css">
         <link rel="stylesheet" href="/css/one_category.css">
         <link rel="stylesheet" href="/css/one_product.css">
+        <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Pacifico" rel="stylesheet">
     </head>
     <body>
         
