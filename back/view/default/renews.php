@@ -1,4 +1,3 @@
-<?php if($_SESSION['status'] == 3){ ?>
 <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data">
     <input type="hidden" name="news_id" size="100" value="0" />
     <input type="submit" name="enter" value="Добавить новость" />
@@ -11,4 +10,3 @@ foreach ($news as $new) {
 ?>
 </ul>
 <a href="/back/">НАЗАД</a><br /><br />
-<?php } else echo "Доступ закрыт!"; ?>

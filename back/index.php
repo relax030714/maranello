@@ -2,6 +2,9 @@
 header('Content-Type: text/html; charset=utf-8');
 session_start();
 
+//Проверка прав
+if($_SESSION['status'] == 3){
+
 // Конфиг сайта
 require_once '/config.php';
 require_once '../libs/database.php';
@@ -17,3 +20,8 @@ else{
 }
 //эта функция просто включит необходимые контроллеры и шаблоны верстки в текущий скрипт
 $path_obj->includder($add_controller);
+
+//редирект на вход, если нет прав
+} else {
+    header('Location: ../login');
+}

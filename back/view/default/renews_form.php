@@ -1,4 +1,3 @@
-<?php if($_SESSION['status'] == 3){ ?>
 <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data">
     
     <a href="<?php echo $back;?>">НАЗАД</a><br /><br />
@@ -22,4 +21,3 @@
     
     <input type="submit" name="enter" value="Сохранить" />
 </form>
-<?php } else echo "Доступ закрыт!"; ?>
