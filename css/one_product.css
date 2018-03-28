@@ -1,5 +1,5 @@
 h1.product_name{
-    margin-left: 630px;
+    margin-left: 50%;
     color: white;
     text-shadow: -1px -1px 0 #000,
 			1px -1px 0 #000,
@@ -12,10 +12,10 @@ img.product_image{
     border-radius: 20px;
     float: left;
     margin-left: 5px;
-    margin-top: -63px;
+    margin-top: -6%;
 }
 div.product_info{
-    margin-left: 630px;
+    margin-left: 50%;
     color: white;
     text-shadow: -1px -1px 0 #000,
 			1px -1px 0 #000,
@@ -24,8 +24,8 @@ div.product_info{
     font-size: 30px;
 }
 div.product_description{
-    margin-top: 350px;
-    margin-left: 10px;
+    margin-top: 20%;
+    margin-left: 1%;
     color: white;
     text-shadow: -1px -1px 0 #000,
 			1px -1px 0 #000,
