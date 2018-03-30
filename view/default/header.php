@@ -5,7 +5,7 @@
     </head>
 <body>
     <header>
-        <a href="../" class="name">Maranello</a>
+        <div class="name"><a href="../">Maranello</a></div>
 	<nav class="dws-menu">
             <ul>
             <li class="menu"><a href="/categories">Меню</a>
