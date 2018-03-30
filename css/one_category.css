@@ -1,5 +1,5 @@
 h1.category_name{
-    margin-left: 50%;
+    margin-left: 47%;
     color: white;
     text-shadow: -1px -1px 0 #000,
 			1px -1px 0 #000,
@@ -8,11 +8,12 @@ h1.category_name{
     font-size: 30px;
 }
 img.category_image{
-    width: 600px;
+    width: 45%;
+    max-height: 500px;
     border-radius: 20px;
     float: left;
     margin-left: 5px;
-    margin-top: -6%;
+    margin-top: -75px;
 }
 ul.category_list{
     list-style-type: none;
@@ -22,7 +23,7 @@ ul.category_list li a{
     text-decoration: none;
 }
 div.category_text{
-    margin-left: 50%;
+    margin-left: 47%;
     font-style: italic;
     font-size: 25px;
     color: white;
