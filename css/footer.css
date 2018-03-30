@@ -15,14 +15,14 @@ footer{
 }
 div.rights{
     float: right;
-    margin-top: 25px;
-    margin-right: 5px;
+    margin-top: 2%;
+    margin-right: 1%;
     text-align: right; 
     font-weight: bold;
 }
 div img{
     float: left;
     margin-right: 5px;
-    margin-left: 10px;
+    margin-left: 1%;
     margin-top: 10px;
 }

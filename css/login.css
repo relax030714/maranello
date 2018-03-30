@@ -1,6 +1,5 @@
 form.log-form{
-    margin-left: 33%;
-    margin-top: 30px;
+    margin-top: 1%;
 }
 input.log-input{
     width: 350px;
@@ -11,7 +10,6 @@ input.log-input{
     text-align: center;    
 }
 input.log-submit{
-    margin-left: 10%;
     width: 180px;
     height: 40px;
     font-size: 20px;
@@ -24,7 +22,6 @@ input.log-submit:hover{
 }
 div.log-info{
     text-align: center;
-    margin-left: -58%;
     color: white;
     font-size: 28px;
     font-weight: bold;
@@ -32,4 +29,7 @@ div.log-info{
 			1px -1px 0 #000,
 			-1px 1px 0 #000,
 			1px 1px 0 #000;
+}
+div.login-form{
+    text-align: center;
 }

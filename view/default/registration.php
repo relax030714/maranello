@@ -5,6 +5,7 @@
 </head>
 <body>
     <section>
+    <div class="registration-form">
     <form class="reg-form" method="post">
                 <label><p><div class="reg-info">Введите имя:</div><br>
                     <input class="reg-input" name="name" type="text"></p></label>
@@ -20,6 +21,7 @@
                 <input class="reg-input" name="password2" type="password"></p></label>
         <input class="reg-submit" type="submit" value="Регистрация">
     </form>
+    </div>
     </section>
 </body>
 </html>
